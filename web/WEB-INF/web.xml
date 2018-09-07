@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>VMOpsServlet</servlet-name>
+        <servlet-class>VMOpsServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>createVM</servlet-name>
+        <servlet-class>createVM</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>createStoragePool</servlet-name>
+        <servlet-class>createStoragePool</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>StoragePoolopsServlet</servlet-name>
+        <servlet-class>StoragePoolopsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VMOpsServlet</servlet-name>
+        <url-pattern>/VMOpsServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>createVM</servlet-name>
+        <url-pattern>/createVM</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>createStoragePool</servlet-name>
+        <url-pattern>/createStoragePool</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>StoragePoolopsServlet</servlet-name>
+        <url-pattern>/StoragePoolopsServlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        home.jsp
+    </welcome-file-list>
+</web-app>

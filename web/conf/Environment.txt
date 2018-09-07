@@ -1,0 +1,8 @@
+IS_MANAGEMENT_ON=yes
+MAX_TIMEOUT_FOR_NETWORK=100
+LOCATION_OF_DIRECTORY_WITH_CONFIG_FILES=/root/NetBeansProjects/kvmvmmanager/conf
+LOCATION_OF_NODES_MANAGED_FILE=/root/NetBeansProjects/kvmvmmanager/conf/NodesManaged.txt
+LOCATION_OF_NODES_CONSIDERED_FOR_SESSION_FILE=/root/NetBeansProjects/kvmvmmanager/conf/NodesConsideredForSession.txt
+LOCATION_OF_NODE_INFO_FILE="/root/NetBeansProjects/kvmvmmanager/conf/NodeInfo.xml";
+LOCATION_OF_NODE_AND_VM_INFO_FILE=/root/NetBeansProjects/kvmvmmanager/conf/NodeAndVMInfo.xml;
+

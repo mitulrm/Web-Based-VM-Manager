@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/root/NetBeansProjects/kvmvmmanager/web/Dashboard.jsp</file>
+            <file>file:/root/NetBeansProjects/kvmvmmanager/src/java/VMOpsServlet.java</file>
+            <file>file:/root/NetBeansProjects/kvmvmmanager/web/createVM.jsp</file>
+            <file>file:/root/NetBeansProjects/kvmvmmanager/web/createStoragePool.jsp</file>
+            <file>file:/root/NetBeansProjects/kvmvmmanager/src/java/createStoragePool.java</file>
+            <file>file:/root/NetBeansProjects/kvmvmmanager/src/java/createVM.java</file>
+        </group>
+    </open-files>
+</project-private>
